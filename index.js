@@ -1,3 +1,4 @@
+var path = require('path')
 var fs = require('fs')
 var os = require('os')
 
@@ -7,7 +8,7 @@ function randomChar() {
   return chars[Math.floor(Math.random() * chars.length)]
 }
 
-var tmpdir = os.tmpdir()
+var tmpdir = path.join(os.tmpdir(), path.sep)
 
 function generate(template) {
   return tmpdir + template.replace(/X/g, randomChar)

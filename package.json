@@ -1,6 +1,6 @@
 {
-  "name": "mktemp",
-  "version": "0.3.5",
+  "name": "mktmp",
+  "version": "1.0.0",
   "description": "mktemp command for node.js",
   "license": "MIT",
   "repository": "git://github.com/jkroso/mktemp.git",
